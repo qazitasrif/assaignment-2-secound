@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    padding: 30px 60px;
+
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    background-color: #161616;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner-header {
+    width: 50%;
+    padding: 40px 30px 20px 30px;
+}
+
+.banner-header p {
+    font-weight: 300;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.banner-header h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.watch {
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* blog-container */
+
+.blog-container {
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+}
+
+.blog-sidebar {
+    width: 20%;
+    background-color: #161616;
+    height: 220px;
+    border-radius: 10px;
+}
+
+.link {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px 10px 10px 20px;
+    width: 70%;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.link.red {
+    background-color: #DD0000;
+}
+
+.fixture {
+    margin-left: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 312px);
+    gap: 10px;
+}
+
+.game {
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+
+
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.flag span {
+    margin: 0 5px;
+    font-weight: 700;
+}
+
+.game h4 {
+    margin: 10px 0;
+}
+
+.game p {
+    color: grey;
+}
+
+
+/* footer */
+.footer {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    height: 300px;
+
+}
+
+.goal {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+ul {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 105%;
+    text-decoration: none;
+}
+
+.final-link {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    margin: 0 50px 0 50px;
+}
